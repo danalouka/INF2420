@@ -1,0 +1,72 @@
+
+body{
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+
+body > nav{
+  background-color: rgba(0, 140, 140, 1);
+  text-align: center;
+}
+
+body > nav > h3{
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 29px;
+  color: #FFFFFF
+}
+
+body > nav > a{
+  
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.source{
+  font-family: 'Arial Italic', 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 12px;
+}
+
+body h4{
+  font-family: "Arial Bold", Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(0, 140, 140);
+}
+
+body p{
+  font-size: 15px;
+}
+
+
+
+
+.form-control {
+  border-radius:0px;
+}
+
+.center-image img {
+  margin : auto;
+  display: block;
+  position: relative;
+  max-height: 300px;
+  margin-top: 100px;
+  filter: grayscale(1) sepia(100%) hue-rotate(55deg) saturate(7) brightness(1) contrast(2);
+}
+
+.pip-footer {
+  position: fixed;
+  bottom: 0;
+  width: calc(100%-20px);
+  margin: 10px;
+}
