@@ -20,8 +20,11 @@ body > nav > h3{
   color: #FFFFFF
 }
 
-body > nav > a{
-  
+body > nav > div > button{
+  padding: 22px 16px;
+  border: none;
+  outline: none;
+  background-color: inherit;
   font-size: 16px;
   color: #FFFFFF;
   font-family: 'Arial', sans-serif;
@@ -49,24 +52,9 @@ body p{
 }
 
 
-
-
-.form-control {
-  border-radius:0px;
-}
-
-.center-image img {
-  margin : auto;
-  display: block;
-  position: relative;
-  max-height: 300px;
-  margin-top: 100px;
-  filter: grayscale(1) sepia(100%) hue-rotate(55deg) saturate(7) brightness(1) contrast(2);
-}
-
-.pip-footer {
-  position: fixed;
-  bottom: 0;
-  width: calc(100%-20px);
-  margin: 10px;
+form > label{
+  font-family: 'Arial Bold', 'Arial', sans-serif;
+  font-size: 15px;
+  color: #008C8C;
+  text-align: left;
 }
