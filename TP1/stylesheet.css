@@ -13,6 +13,8 @@ body > nav{
 }
 
 body > nav > h3{
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-family: 'Arial', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -57,4 +59,10 @@ form > label{
   font-size: 15px;
   color: #008C8C;
   text-align: left;
+}
+
+#icon{
+  position: absolute;
+  top: 20px;
+  right: 15px;
 }
