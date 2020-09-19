@@ -90,5 +90,6 @@ body div  form  label {
 }
 
 .tablinks.active  {
-  color: #0000FF;
+  border-bottom: 3px solid #FFFFFF;
 }
+
