@@ -87,10 +87,8 @@ body div  form  label {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%); 
- 
-
 }
 
-
-
-
+.tablinks.active  {
+  color: #0000FF;
+}
