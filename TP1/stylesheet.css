@@ -24,6 +24,13 @@ body > nav > h3{
   padding : 14px;
 }
 
+
+form > input {
+  width: 100%;
+  margin: 5px 0px 11px;
+}
+
+
 body > nav > div > button{
   padding: 22px 16px;
   border: none;
@@ -37,7 +44,7 @@ body > nav > div > button{
   text-decoration: none;
 }
 
-.source{
+.source {
   font-family: 'Arial Italic', 'Arial', sans-serif;
   font-weight: 400;
   font-style: italic;
@@ -64,7 +71,9 @@ form > label{
   border-bottom: 20px;
 }
 
-#icon{
+#icon {
+  font-size: 35px;
+  color: #FFFFFF;
   position: absolute;
   top: 20px;
   right: 15px;
@@ -83,7 +92,7 @@ body div  form  label {
 #InscriptionForm {
   
   position: absolute;
-  top: 30%;
+  top: 33%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%); 
@@ -92,4 +101,3 @@ body div  form  label {
 .tablinks.active  {
   border-bottom: 3px solid #FFFFFF;
 }
-
