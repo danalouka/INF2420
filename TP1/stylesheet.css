@@ -20,7 +20,8 @@ body > nav > h3{
   font-weight: 400;
   font-style: normal;
   font-size: 29px;
-  color: #FFFFFF
+  color: #FFFFFF;
+  padding : 14px;
 }
 
 body > nav > div > button{
