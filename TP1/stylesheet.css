@@ -1,4 +1,21 @@
 
+h1{
+  color:#8C8C8C;
+  border-width: 0px;
+  border:
+  left: 37px;
+  top: 95px;
+  width: 292px;
+  height: 28px;
+  display: flex;
+  font-family: 'Arial Bold', 'Arial', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+}
+b{
+  color:#8C8C8C;
+}
 body{
   
   font-family: 'Arial', sans-serif;
@@ -78,7 +95,35 @@ form > label{
   top: 20px;
   right: 15px;
 }
-
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+.formPopup{  
+  margin-left: 450px;
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+.formPopup input[type=text], .formPopup input[type=password] {
+  width: 100%;
+  margin-right:-10px;
+  border-radius: 5px;
+  opacity: 50%;
+  background: #f1f1f1;
+}
+.formPopup input[type=text] :focus, .formPopup input[type=password]:focus {
+  opacity: 1;
+}
 
 body div  form  label {
   min-width: 200px;

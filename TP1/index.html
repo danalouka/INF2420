@@ -20,7 +20,7 @@
       <h3 href="#">Frigocommunautaire</h3>
 
       <div id="icon">
-        <i class="fas fa-sign-in-alt"></i>
+        <i class="fas fa-sign-in-alt" onclick="openForm()"></i>
         <p style="color:white;">Membres</p>
       </div>
 
@@ -35,7 +35,23 @@
         
       </div>
     </nav>
+    <div id="myModal" class="modal">
+      <!-- <img id="myImg" src="aliens.jpg" alt="Aliens" style="width:100%;max-width:300px;padding-left:450px;" onclick="closeForm()"> -->
+      <form action="/action_page.php" class="formPopup">
+        <h1>Accès à l'espace membre</h1>
+        <hr style="width:105%;text-align:left;margin-left:-10px">
 
+        <label for="email"><b>Nom d'utilisateur</b></label>
+        <input type="text" name="email" required>
+
+        <label for="psw"><b>Mot de passe</b></label>
+        <input type="password" name="psw" required>
+
+        <hr style="width:105%;text-align:left;margin-left:-10px">
+
+        <button type="submit" >Connecter</button>
+        <button type="button" onclick="closeForm()">Annuler</button>
+    </div>
     <div id="Mission" class="tabcontent">
       <p class="source">(Texte extrait du site Web de sauvetabouffe.org/)</p>
 
