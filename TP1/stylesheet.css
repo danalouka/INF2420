@@ -1,12 +1,22 @@
 
+
 body{
-  
+
+  margin: 0px;
   font-family: 'Arial', sans-serif;
   font-weight: 400;
   font-style: normal;
   background-color: rgba(255, 255, 255, 1);
 }
 
+.header-left ol{
+  width: auto;
+  float: left;
+  display: block;
+  background-color: #6899D3;        
+  margin: 0; 
+  padding: 0; 
+}
 
 body > nav{
   background-color: rgba(0, 140, 140, 1);
@@ -26,13 +36,22 @@ body > nav > h3{
 
 
 form > input {
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   width: 100%;
+  padding: 10px 10px 10px 10px;
   margin: 5px 0px 11px;
+  width: 404px;
+  height: 6px;
+  color: #8C8C8C;
+  border: 1px solid  rgb(195, 195, 195);
+  border-radius: 5px;
+
 }
 
 
-body > nav > div > button{
-  padding: 22px 16px;
+body > nav > div > button {
   border: none;
   outline: none;
   background-color: inherit;
@@ -41,7 +60,14 @@ body > nav > div > button{
   font-family: 'Arial', sans-serif;
   font-weight: 400;
   font-style: normal;
-  text-decoration: none;
+  text-decoration: none; 
+  width: 135px;
+  height: 68px;
+  padding : 0px;
+}
+
+form > button {
+  position: absolute;
 }
 
 .source {
@@ -62,7 +88,6 @@ body p{
   font-size: 15px;
 }
 
-
 form > label{
   font-family: 'Arial Bold', 'Arial', sans-serif;
   font-size: 15px;
@@ -80,7 +105,7 @@ form > label{
 }
 
 
-body div  form  label {
+body div form label {
   min-width: 200px;
   min-height: 60px; 
   width: 438px;
@@ -92,7 +117,7 @@ body div  form  label {
 #InscriptionForm {
   
   position: absolute;
-  top: 33%;
+  top: 40%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%); 
@@ -100,4 +125,33 @@ body div  form  label {
 
 .tablinks.active  {
   border-bottom: 3px solid #FFFFFF;
+}
+
+input[type="checkbox" i] {
+
+  border-width: 0px;
+  top: 2px;
+  width: 12px;
+  height: 12px;
+  margin-right: 3px;
+  border: 1px solid  black;
+  border-radius: 0px;
+  
+}
+
+form > button {
+  right : 0px;
+  color: white; 
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  background-color: rgb(0, 140, 140);
+  box-shadow: none;
+  border: 1px;
+  border-radius: 5px;
+  padding : 7px 7px;
+}
+form > button:hover {
+  background-color: rgb(129, 180, 180);
 }
