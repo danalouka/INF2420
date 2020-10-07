@@ -1,22 +1,14 @@
 
 
-h1{
-  color:#8C8C8C;
-  border-width: 0px;
-  left: 37px;
-  top: 95px;
-  width: 292px;
-  height: 28px;
-  display: flex;
-  font-family: 'Arial Bold', 'Arial', sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 24px;
-}
-b{
-  color:#8C8C8C;
+
+
+.parenthesis > b{
+  color:rgb(0, 140, 140);
 }
 
+.parenthesis {
+  color:rgb(0, 140, 140);
+}
 body{
 
   margin: 0px;
@@ -51,23 +43,6 @@ body > nav > h3{
   padding : 14px;
 }
 
-
-form > input {
-  font-family: 'Arial', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  width: 100%;
-  padding: 10px 10px 10px 10px;
-  margin: 5px 0px 11px;
-  width: 404px;
-  height: 6px;
-  color: #8C8C8C;
-  border: 1px solid  rgb(195, 195, 195);
-  border-radius: 5px;
-
-}
-
-
 body > nav > div > button {
   border: none;
   outline: none;
@@ -83,10 +58,6 @@ body > nav > div > button {
   padding : 0px;
 }
 
-form > button {
-  position: absolute;
-}
-
 .source {
   font-family: 'Arial Italic', 'Arial', sans-serif;
   font-weight: 400;
@@ -99,68 +70,15 @@ body h4{
   font-weight: 700;
   font-style: normal;
   color: rgb(0, 140, 140);
+  margin: 10px;
 }
 
 body p{
   font-size: 15px;
-}
-
-form > label{
-  font-family: 'Arial Bold', 'Arial', sans-serif;
-  font-size: 15px;
-  color: #008C8C;
-  text-align: left;
-  border-bottom: 20px;
-}
-
-#icon {
-  font-size: 35px;
-  color: #FFFFFF;
-  position: absolute;
-  top: 20px;
-  right: 15px;
-}
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-.formPopup{  
-  margin-left: 450px;
-  max-width: 300px;
-  padding: 10px;
-  background-color: white;
-}
-.formPopup input[type=text], .formPopup input[type=password] {
-  width: 100%;
-  margin-right:-10px;
-  border-radius: 5px;
-  opacity: 50%;
-  background: #f1f1f1;
-}
-.formPopup input[type=text] :focus, .formPopup input[type=password]:focus {
-  opacity: 1;
-}
-
-body div form label {
-  min-width: 200px;
-  min-height: 60px; 
-  width: 438px;
-  height: 30px;
-  padding: 0px;
- 
+  margin: 10px;
 }
 
 #InscriptionForm {
-  
   position: absolute;
   top: 40%;
   left: 50%;
@@ -181,22 +99,128 @@ input[type="checkbox" i] {
   margin-right: 3px;
   border: 1px solid  black;
   border-radius: 0px;
-  
 }
 
-form > button {
-  right : 0px;
-  color: white; 
+
+.modal > form > p{
+  color:#8C8C8C;
+  width: 292px;
+  font-family: 'Arial Bold', 'Arial', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+}
+
+form > input {
   font-family: 'Arial', sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 13px;
-  background-color: rgb(0, 140, 140);
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  margin: 5px 0px 11px;
+  width: 404px;
+  height: 20px;
+  color: #8C8C8C;
+  border: 1px solid  rgb(195, 195, 195);
+  border-radius: 5px;
+
+}
+
+
+form > label{
+  font-family: 'Arial Bold', 'Arial', sans-serif;
+  font-size: 15px;
+  color:#8C8C8C;
+  text-align: left;
+  border-bottom: 20px;
+  min-width: 200px;
+  min-height: 60px; 
+  width: 438px;
+  height: 30px;
+  padding: 0px;
+}
+
+
+
+#icon {
+  font-size: 35px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+}
+
+.formPopup{  
+  margin-left: 40%;
+  margin-top: 4%;
+  width: 350px;
+  height: 295px;
+  padding: 10px;
+  background-color: white;
+}
+
+.formPopup input[type=text], .formPopup input[type=password] {
+  width: 93%;
+  margin-right:-10px;
+  border-radius: 5px;
+  opacity: 75%;
+  border-color: black;
+  color:rgb(80, 80, 80);
+}
+
+
+form > button {
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position:absolute;
   box-shadow: none;
+  cursor: pointer;
+}
+
+#connectButton {
+  background-color: rgb(0, 140, 140);
+  color: white; 
   border: 1px;
   border-radius: 5px;
-  padding : 7px 7px;
+  left: 51%;
+  font-size: 18px;
+  padding : 10px 10px;
+  text-align: center;
+  width: 147px;
 }
-form > button:hover {
+
+#cancelButton{
+  color : rgb(0, 140, 140);
+  font-size: 18px;
+  left: 46%;
+  top:44%;
+  border:none;
+  background-color: white;
+  
+}
+#connectButton:hover {
   background-color: rgb(129, 180, 180);
+}
+
+#cancelButton:hover {
+  color:rgba(22, 155, 213,0.8);
+}
+
+#nom {
+  margin-bottom: 40px;
 }
