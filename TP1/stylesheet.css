@@ -78,6 +78,10 @@ body p{
   margin: 10px;
 }
 
+#Inscription {
+  margin:50px
+}
+
 #InscriptionForm {
   position: absolute;
   top: 40%;
