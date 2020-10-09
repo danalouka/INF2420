@@ -1,0 +1,494 @@
+
+
+
+
+.parenthesis > b{
+  color:rgb(0, 140, 140);
+}
+
+.parenthesis {
+  color:rgb(0, 140, 140);
+}
+body{
+/* DEPLUS */
+  margin: 0px;
+  overflow-x: hidden;
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgba(255, 255, 255, 1);
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  width: 500px;
+  border-radius: 1000px;
+  background-color: BLACK;
+  
+}
+
+.header-left ol{
+  width: auto;
+  float: left;
+  display: block;
+  background-color: #6899D3;        
+  margin: 0; 
+  padding: 0; 
+}
+.divbg{
+  display:none;
+}
+.div0{
+  background-color: rgba(0, 140, 140, 1);
+  text-align: center;
+  /* DEPLUS */
+}
+.div1{
+  background-color: rgba(0, 140, 140, 1);
+  text-align: center;
+  padding-top: 5px;
+}
+.div0{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 29px;
+  color: #FFFFFF;
+  padding : 14px;
+}
+.div3{
+  padding-top: 5px;
+}
+/* DEPLUS */
+body div  form  label {
+  min-width: 200px;
+  min-height: 60px; 
+  width: 438px;
+  height: 30px;
+  padding: 0px;
+  
+}
+
+
+.tablinks {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none; 
+  width: 135px;
+  height: 68px;
+  padding : 0px;
+}
+
+.source {
+  font-family: 'Arial Italic', 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 12px;
+}
+
+body h4{
+  font-family: "Arial Bold", Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(0, 140, 140);
+  margin: 10px;
+}
+h4{
+  padding-bottom:0px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+body p{
+  font-size: 15px;
+  margin: 10px;
+}
+#reglement{
+  margin:0px;
+}
+
+#InscriptionForm {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%); 
+  width: 999px;
+  
+}
+
+.tablinks.active  {
+  border-bottom: 3px solid #FFFFFF;
+}
+
+input[type="checkbox" i] {
+
+  border-width: 0px;
+  top: 2px;
+  width: 12px;
+  height: 12px;
+  margin-right: 3px;
+  border: 1px solid  black;
+  border-radius: 0px;
+}
+#Inscription{
+  position: absolute;
+  top: 25%;
+}
+
+.inputBox [type=text], .inputBox [type=password] {
+  width: 93%;
+  margin-right:-10px;
+  border-radius: 5px;
+  opacity: 75%;
+  border-color: black;
+  color:red;
+  
+}
+.inputBox{
+  background: chocolate;
+  width: 100%;
+}
+#InscriptionForm{
+  display: flex;
+  justify-content: center;
+  background-color: DodgerBlue;
+}
+.parenthesis{
+  
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.modal > form > p{
+  color:#8C8C8C;
+  width: 292px;
+  font-family: 'Arial Bold', 'Arial', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+}
+
+form > input {
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  margin: 5px 0px 11px;
+  width: 404px;
+  height: 20px;
+  color: #8C8C8C;
+  border: 1px solid  rgb(195, 195, 195);
+  border-radius: 5px;
+
+}
+
+
+form > label{
+  /* PASTOUCHER */
+  font-family: 'Arial Bold', 'Arial', sans-serif;
+  font-size: 15px;
+  color:#8C8C8C;
+  text-align: left;
+  border-bottom: 20px;
+  min-width: 200px;
+  min-height: 60px; 
+  width: 438px;
+  height: 30px;
+  padding: 0px;
+}
+
+
+
+#icon {
+  font-size: 35px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+ 
+}
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+}
+
+.formPopup{  
+  margin-left: 40%;
+  margin-top: 4%;
+  width: 350px;
+  height: 295px;
+  padding: 10px;
+  background-color: white;
+}
+
+.formPopup input[type=text], .formPopup input[type=password] {
+  width: 93%;
+  margin-right:-10px;
+  border-radius: 5px;
+  opacity: 75%;
+  border-color: black;
+  color:rgb(80, 80, 80);
+}
+
+
+form > button {
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position:absolute;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+#connectButton {
+  background-color: rgb(0, 140, 140);
+  color: white; 
+  border: 1px;
+  border-radius: 5px;
+  left: 51%;
+  font-size: 18px;
+  padding : 10px 10px;
+  text-align: center;
+  width: 147px;
+}
+
+#cancelButton{
+  color : rgb(0, 140, 140);
+  font-size: 18px;
+  left: 46%;
+  top:44%;
+  border:none;
+  background-color: white;
+  
+}
+#connectButton:hover {
+  background-color: rgb(129, 180, 180);
+}
+
+#cancelButton:hover {
+  color:rgba(22, 155, 213,0.8);
+}
+
+#nom {
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 1199px) and (orientation: landscape) {
+  .div0{
+    color: #FFFFFF;
+    background-color: #008C8C;
+    padding-left: 10px;
+    position:fixed;
+    width:100%;
+    height:60px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 29px;
+    color: #FFFFFF;
+    padding : 14px;
+  }
+  h3{
+      margin-top : 0px;
+
+  }
+  .div1{
+    background-color: #008C8C;
+    margin-top: 60px;
+    display: block;
+    width:100px;
+    height:80%;
+    position: fixed;
+    float:left;
+  }
+  .divbg{
+    background-color: #008C8C;
+    margin-top: 60px;
+    display: block;
+    width:100px;
+    height:100%;
+    position: fixed;
+    float:left;
+  }
+  .div3{
+    background-color: white;
+    padding-top: 10px;
+  }
+    
+  .tablinks{
+    height:25%;
+    width:100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    background-color: inherit;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+  }
+  #icon{
+  font-size: 35px;
+  top: 0px;
+  height: 100%;
+  width:15%;
+  margin-right: 50px;
+  text-align: right;
+  right:-9px;
+  padding-right: 17px;
+  } 
+  body {
+    position: absolute;
+    
+
+  cursor: url(https://2rhl12.axshare.com/resources/css/images/touch.svg) 32 32, auto;
+
+  
+  }
+  body>nav>div>button {
+    
+    display: block;
+    height: 20%;
+    width :10%;
+    cursor: url(https://2rhl12.axshare.com/resources/css/images/touch.svg) 32 32, auto;
+  }
+  body > nav > div {
+  margin-top: 50px;
+  z-index: 1;
+  left: 0;
+  background-color:#008C8C;
+  overflow-x: hidden;
+  padding-top: 20px;
+  
+  }
+  body > nav > div > button{
+    text-align: center;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+  }
+  .tabcontent{
+    padding-left: 100px;
+    padding-top: 10%;
+  }
+ .tablinks.active  {
+    border-left: 3px solid #FFFFFF;
+    border-bottom: 0px;
+  }
+ 
+  .tab{
+
+    position: absolute;
+    z-index: 1;
+    background: #008C8C;
+    overflow-x: hidden;
+    
+  }
+  
+  body > nav > h3{
+    text-align: left;
+  }
+  body > nav{
+    position: fixed;
+  }
+  .Titre{
+    width:100%;
+      }
+  
+}
+
+@media only screen and (orientation : portrait) {
+  html{
+    cursor: url(https://2rhl12.axshare.com/resources/css/images/touch.svg) 32 32, auto;
+  }
+  body {
+    cursor: url(https://2rhl12.axshare.com/resources/css/images/touch.svg) 32 32, auto;
+  } 
+
+  body > nav > div > button{
+    width: 24%;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    font-weight: 300px;
+    font-style: normal;
+    text-decoration: none;
+    cursor: url(https://2rhl12.axshare.com/resources/css/images/touch.svg) 32 32, auto;
+  }
+  .tablinks.active  {
+  border-bottom: 3px solid #FFFFFF;
+}
+.tablinks{
+  width: 23%;
+  padding-right: 0px;
+  margin-right: 0px;
+  font-size:11px;
+}
+body > nav > h3{
+  text-align: left;
+}
+.div1{
+  text-align: left;
+  width: 100%;
+}
+h3{
+ font-size: 19px;
+ text-align: left;
+ width:80%
+}
+#icon{
+  text-align: right;
+  }
+  .div0 p{
+  width: 100%;
+  left:0px;
+  padding-left: 0px;
+  margin: 0px;
+  } 
+/* body p{
+  left:0px;
+  padding-left: 0px;
+  margin: 0px;
+} */
+}  
