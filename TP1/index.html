@@ -46,7 +46,7 @@
           <input type="password" name="psw" required>
 
           <hr style="width:105%;text-align:left;margin-left:-9px;color:#8C8C8C; opacity: 0.5;">
-
+          
           <button type="submit" id=connectButton>Connecter</button>
           <button type="button" onclick="closeForm()"; id=cancelButton>Annuler</button>
       </div>
@@ -134,30 +134,33 @@
           <br />
 
           <label for="pword" class=parenthesis><b>Mot de passe</b> (mélange de lettres et chiffres)</label><br />
-          <input type="password" class="inputBox" name="pword">
-
-          <br />
-
-          <label for="pwordc" class=parenthesis><b>Mot de passe</b> (confirmation)</label><br />
-          <input type="password" class="inputBox" name="pwordc">
+          <input type="password" class="inputBox" id=password name="pword">
           
           <br />
 
-          <input type="checkbox" id=checkbox style="color:#8C8C8C;">J'ai lu et j'accepte le règlement<br /> 
-          <button id=confirmationButton type="button" onclick=checkIfAcceptable()>Je confirme mon inscription</button>
+          <label for="pwordc" class=parenthesis><b>Mot de passe</b> (confirmation)</label><br />
+          <input type="password" class="inputBox" id=confirmPassword name="pwordc">
+
+          
+          <br />
+
+          <input type="checkbox" id=checkbox ><label style="color:#8C8C8C;">J'ai lu et j'accepte le règlement</label><br/>
+          <hr id="red">
+          <button id=confirmationButton type="button"  onclick=checkIfAcceptable()>Je confirme mon inscription</button>
 
         </form>
       </div>
     </div>
     <div class="modal">
       <div class=popup>
-        <b>Bienvenue</b>
-        <hr style="width:102%;text-align:left;margin-left:-9px;color:#8C8C8C; opacity: 0.5;">
+        <div id=bienvenue></br><b>Bienvenue</b></div>
+        
+        <hr style="text-align:left;margin-left:-9px;color:#8C8C8C; opacity: 0.5;">
         <p id=pPopup>Félicitations et bienvenues à Frigocommunautaires.com.</p>
         <p id= pPopup2>Accédez à l'espace membre et dès aujourd'hui commencez à 
             partager vos excédents de nourriture.</p>
-        <hr style="width:102%;text-align:left;margin-left:-9px;color:black;">
-
+        <hr style="text-align:left;margin-left:-9px;color:black;">
+        </br>
         <button type="submit" id=connectButton onclick="closePopup()">Ok</button>
       </div>
     </div>

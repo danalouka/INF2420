@@ -86,6 +86,15 @@ function closePopup() {
   var modal = document.getElementsByClassName("modal");
   modal[1].style.display = "none";
 
+  var border1 = document.getElementById("password");
+  var border2 = document.getElementById("confirmPassword");
+  var border3 = document.getElementById("red");
+
+ 
+  border1.style.borderTop = "1px solid  black";
+  border2.style.borderTop = "1px solid  black";
+  border3.style.display = "none";
+
   var tabcontent = document.getElementsByClassName("tabcontent");  
 
   for (i = 0; i < tabcontent.length; i++) {
@@ -101,25 +110,32 @@ function closePopup() {
   tablinks[0].className += " active"; 
 }
 
+function alertRed(){
+  var border1 = document.getElementById("password");
+  var border2 = document.getElementById("confirmPassword");
+  var border3 = document.getElementById("red");
+  border1.style.borderTop = "4px solid rgba(255, 78, 98, 1)";
+  border2.style.borderTop = "4px solid rgba(255, 78, 98, 1)";
+  border3.style.display = "block";
+}
 
 function checkIfAcceptable(){
-  // if(verifyCheckbox() == true){
-  //   if(checkFilled() == true){
-  //     if(checkPassword() == true){
-  //       alert("hackerman i'm in!");
-  //       openPopup();
-  //     }
-  //     else{
-  //       alert("password dont match");
-  //     }
-  //   }
-  //   else{
-  //     alert("pas filled");
-  //   }
-  // }
-  // else{
-  //   alert("not checked");
-  // }
-  openPopup();
+  if(verifyCheckbox() == true){
+    if(checkFilled() == true){
+      if(checkPassword() == true){
+        alert("hackerman i'm in!");
+        openPopup();
+      }
+      else{
+        alertRed();
+      }
+    }
+    else{
+      alertRed();
+    }
+  }
+  else{
+    alertRed();
+  }
 }
 

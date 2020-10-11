@@ -16,9 +16,11 @@
   text-align: left;
   line-height: 50px;
 }
+
 .parenthesis label{
   text-align: left;
 }
+
 body{
 /* DEPLUS */
   margin: 0px;
@@ -176,13 +178,40 @@ input[type="checkbox" i] {
 .inputBox{
   width: 100%;
   border-radius: 5px;
-  opacity: 50%;
   border-color: black;
   border-width: 1px;
+  opacity:50%;
   height: 25px;
+  
 }
+/*
+#password{
+  border-top: 10px solid red;
+}
+#confirmPassword{
+  border-top: 10px solid red;
+}
+#confirmationButton{
+  border-top: 10px solid red;
+}
+*/
 
 
+#red{
+  display: none;
+  margin-top: -15px;
+  border-width: 0px;
+  height: 4px;
+  background: inherit;
+  background-color: rgba(255, 78, 98, 1);
+  border: none;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
 
 .modal > form > p{
   color:#8C8C8C;
@@ -247,15 +276,21 @@ form > label{
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+  
 }
 
 .popup{
-  margin-left: 40%;
+  margin-left: 37%;
   margin-top: 4%;
   width: 490px;
-  height: 250px;
+  height: 300px;
   padding: 10px;
   background-color: white;
+  border-radius: 5px;
+}
+
+.popup > hr {
+  width:103%;
 }
 .popup > p{
   font-size: 18px;
@@ -266,7 +301,7 @@ form > label{
   text-align: left;
 }
 
-.popup > b{
+.popup > #bienvenue > b{
   margin-left: 5px;
   padding-top: 20px;
   padding-bottom: 10px;
@@ -276,6 +311,12 @@ form > label{
   color: #8C8C8C;
   font-size: 24px;
   text-align: left;
+}
+
+#bienvenue{
+  height:60px;
+  width: 490px;
+  margin-left: 3px;
 }
 #pPopup{
   padding-top: 20px;
@@ -307,9 +348,15 @@ form > button {
   font-family: 'Arial', sans-serif;
   font-weight: 400;
   font-style: normal;
-  position:absolute;
   box-shadow: none;
   cursor: pointer;
+}
+
+.formPopup > #connectButton{
+  float: right;
+}
+.formPopup > #cancelButton{
+  float: right;
 }
 
 #connectButton {
@@ -317,21 +364,25 @@ form > button {
   color: white; 
   border: 1px;
   border-radius: 5px;
-  left: 51%;
   font-size: 18px;
   padding : 10px 10px;
-  text-align: center;
   width: 147px;
-}
 
+}
+.popup > button{
+  float:right;
+}
 #cancelButton{
   color : rgb(0, 140, 140);
   font-size: 18px;
-  left: 46%;
-  top:44%;
   border:none;
   background-color: white;
-  
+  padding-right: 50px;
+  padding-top: 10px;
+}
+
+#cancelButton:active{
+  outline: none;
 }
 
 #confirmationButton{
@@ -384,6 +435,7 @@ form > button {
     font-size: 29px;
     color: #FFFFFF;
     padding : 14px;
+    z-index: 1;
   }
   h3{
       margin-top : 0px;
@@ -477,6 +529,7 @@ form > button {
     padding-left: 100px;
     padding-top: 10%;
   }
+
  .tablinks.active  {
     border-left: 3px solid #FFFFFF;
     border-bottom: 0px;
@@ -499,8 +552,44 @@ form > button {
   }
   .Titre{
     width:100%;
-      }
+  }
+  #confirmationButton{
+    width:auto;
+
+    margin-top: 1%;
+  }
   
+  #Inscription {
+    width:80%;
+    padding-top:10%;
+    
+  }
+  #Inscription br {
+    display: none;
+    }
+  #Stats {
+    padding-top: 15%;
+  }
+
+  .formPopup{
+    margin-top: -7%;
+    margin-left: 30%;
+  }
+
+  #bienvenue{
+    height: 50px;
+  }
+  .popup{
+    margin-left: 20%;
+    margin-top: -10%;
+    height: 280px;
+  }
+  .popup > br {
+    display: none;
+  }
+  .popup > hr {
+    width: 103.3%;
+  }
 }
 
 @media only screen and (orientation : portrait) {
@@ -533,18 +622,12 @@ form > button {
   margin-right: 0px;
   font-size:11px;
 }
-body > nav > h3{
-  text-align: left;
-}
+
 .div1{
   text-align: left;
   width: 100%;
 }
-h3{
- font-size: 19px;
- text-align: left;
- width:80%;
-}
+
 #icon{
   text-align: right;
   }
@@ -553,7 +636,34 @@ h3{
   left:0px;
   padding-left: 0px;
   margin: 0px;
-  } 
+  text-align: left;
+  }
+  
+  #confirmationButton{
+    width:55%;
+    padding-top:12px;
+    padding-bottom:12px;
+  }
+  
+  #Inscription {
+    width:90%;
+    
+  }
+  .formPopup{
+    margin-top: -7%;
+    margin-left: 4%;
+    width: 330px;
+  }
+  .popup{
+    margin-left: 8%;
+    margin-top: -10%;
+    width: 300px;
+    height: 350px;
+  }
+
+  .popup > hr {
+    width:105.5%;
+  }
 /* body p{
   left:0px;
   padding-left: 0px;
