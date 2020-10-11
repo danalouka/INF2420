@@ -17,7 +17,7 @@
   <body>
     
 <div class="div0">
-        <h3 href="#">Frigocommunautaire</h3>
+        <p href="#">Frigocommunautaire</p>
           <div id="icon">
               <i class="fas fa-sign-in-alt" onclick="openForm()"></i>
               <p style="color:white;">Membres</p>
@@ -34,7 +34,7 @@
                 <button class="tablinks" onclick="openTab(event, 'Inscription')">Inscription</button>
     </div>
 <div class="div3">
-      <div id="myModal" class="modal">
+      <div class="modal">
         <form action="/action_page.php" class="formPopup">
           <p>Accès à l'espace membre</p>
           <hr style="width:105%;text-align:left;margin-left:-9px;color:#8C8C8C; opacity: 0.5;">
@@ -119,6 +119,7 @@
         <h4>Retour des contenants</h4>
         <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
       </div>
+      
 
       <div  id="Inscription" class="tabcontent">
         <form id="InscriptionForm">
@@ -142,9 +143,22 @@
           
           <br />
 
-          <input type="checkbox" style="color:#8C8C8C;">J'ai lu et j'accepte le règlement<br /> 
-          <button disabled>Je confirme mon inscription</button>
+          <input type="checkbox" id=checkbox style="color:#8C8C8C;">J'ai lu et j'accepte le règlement<br /> 
+          <button id=confirmationButton type="button" onclick=checkIfAcceptable()>Je confirme mon inscription</button>
+
         </form>
+      </div>
+    </div>
+    <div class="modal">
+      <div class=popup>
+        <b>Bienvenue</b>
+        <hr style="width:102%;text-align:left;margin-left:-9px;color:#8C8C8C; opacity: 0.5;">
+        <p id=pPopup>Félicitations et bienvenues à Frigocommunautaires.com.</p>
+        <p id= pPopup2>Accédez à l'espace membre et dès aujourd'hui commencez à 
+            partager vos excédents de nourriture.</p>
+        <hr style="width:102%;text-align:left;margin-left:-9px;color:black;">
+
+        <button type="submit" id=connectButton onclick="closePopup()">Ok</button>
       </div>
     </div>
     
