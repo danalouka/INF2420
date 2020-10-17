@@ -77,6 +77,7 @@ function checkFilled(){
   }
   return j;
 }
+
 function openPopup(){
   var modal = document.getElementsByClassName("modal");
   modal[1].style.display = "block";
@@ -119,12 +120,13 @@ function alertRed(){
   border3.style.display = "block";
 }
 
-function checkIfAcceptable(){
+function connectIfAcceptable(evt){
   if(verifyCheckbox() == true){
     if(checkFilled() == true){
       if(checkPassword() == true){
-        alert("hackerman i'm in!");
+        addAccount(evt);
         openPopup();
+        
       }
       else{
         alertRed();
@@ -137,5 +139,29 @@ function checkIfAcceptable(){
   else{
     alertRed();
   }
+}
+
+
+const addAccount = (ev)=>{
+  ev.preventDefault();
+  let json = {
+    name: document.getElementById('name').value,
+    email: document.getElementById('email').value,
+    password: document.getElementById('password').value
+  }
+  document.forms[0].reset();
+  
+
+  let postRequest = new Request("http://127.0.0.1:3000/", {method: 'POST', body: JSON.stringify(json)})
+
+  fetch(postRequest)
+  .then(response => {
+    if (response.status === 200) {
+      return response.json();
+    } else {
+      throw new Error('Something went wrong on api server!');
+    }
+  })
+
 }
 

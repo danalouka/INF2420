@@ -1,174 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <title>Frigocommunautaire</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="HandheldFriendly" content="true">
-    
-    <link href="fontawesome-free-5.14.0-web/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="stylesheet.css">
+<head>
+  <meta charset="utf-8">
+  <title>Frigocommunautaire</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
 
-    
-  </head>
+  <link href="fontawesome-free-5.14.0-web/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css">
 
-  <body>
-    
-<div class="div0">
-        <p href="#">Frigocommunautaire</p>
-          <div id="icon">
-              <i class="fas fa-sign-in-alt" onclick="openForm()"></i>
-              <p style="color:white;">Membres</p>
-          </div>
-      </div>
-<div class="divbg">
- abc
-</div>
-<div class="div1">
-      
-                <button class="tablinks active" onclick="openTab(event, 'Mission')">Mission</button>
-                <button class="tablinks" onclick="openTab(event, 'Stats')">Stats</button>
-                <button class="tablinks" onclick="openTab(event, 'Reglement')">Règlement</button>
-                <button class="tablinks" onclick="openTab(event, 'Inscription')">Inscription</button>
+
+</head>
+
+<body>
+
+  <div class="div0">
+    <p href="#">Frigocommunautaire</p>
+    <div id="icon">
+      <i class="fas fa-sign-in-alt" onclick="openForm()"></i>
+      <p style="color:white;">Membres</p>
     </div>
-<div class="div3">
-      <div class="modal">
-        <form action="/action_page.php" class="formPopup">
-          <p>Accès à l'espace membre</p>
-          <hr style="width:105%;text-align:left;margin-left:-9px;color:#8C8C8C; opacity: 0.5;">
+  </div>
+  <div class="div1">
 
-          <label for="email">Nom d'utilisateur</label>
-          <input type="text" id=nom name="email" required>
+    <button class="tablinks active" onclick="openTab(event, 'Mission')">Mission</button>
+    <button class="tablinks" onclick="openTab(event, 'Stats')">Stats</button>
+    <button class="tablinks" onclick="openTab(event, 'Reglement')">Règlement</button>
+    <button class="tablinks" onclick="openTab(event, 'Inscription')">Inscription</button>
+  </div>
+  <div class="modal">
+    <form action="/action_page.php" class="formPopup">
+      <p>Accès à l'espace membre</p>
+      <hr style="width:105%;text-align:left;margin-left:-9px;color:#8C8C8C; opacity: 0.5;">
 
-          <label for="psw">Mot de passe</label>
-          <input type="password" name="psw" required>
+      <label for="email">Nom d'utilisateur</label>
+      <input type="text" id=nom name="email" required>
 
-          <hr style="width:105%;text-align:left;margin-left:-9px;color:#8C8C8C; opacity: 0.5;">
-          
-          <button type="submit" id=connectButton>Connecter</button>
-          <button type="button" onclick="closeForm()"; id=cancelButton>Annuler</button>
-      </div>
-      <div id="Mission" class="tabcontent">
-        <p class="source">(Texte extrait du site Web de sauvetabouffe.org/)</p>
+      <label for="psw">Mot de passe</label>
+      <input type="password" name="psw" required>
 
-        <h4>Le problème</h4>
+      <hr style="width:105%;text-align:left;margin-left:-9px;color:#8C8C8C; opacity: 0.5;">
 
-        <p>Notre alimentation est somme toute très énergivore. Avant d’arriver à notre assiette, nos aliments ont mobilisé énormément de ressources!</p>
+      <button type="submit" class=connectButton>Connecter</button>
+      <button type="button" onclick="closeForm()" ; id=cancelButton>Annuler</button>
+  </div>
+  <div id="Mission" class="tabcontent">
+    <p class="source">(Texte extrait du site Web de sauvetabouffe.org/)</p>
 
-        <ul>
-          <li>
-            Le pétrole pour les engrais utilisés en agriculture;
-          </li>
-          <li>
-            Le diesel pour la machinerie agricole;
-          </li>
-          <li>
-            L’eau pour arroser les cultures;
-          </li>
-          <li>
-            Le mazout ou le gaz naturels pour chauffer les bâtiments d’élevage et d’entreposage ainsi que les serres;
-          </li>
-          <li>
-            Le combustible des bateaux, des camions et même des avions pour transporter  les aliments
-          </li>
-          <li>
-            Le pétrole pour  les plastiques des emballages.
-          </li>
-        </ul>
+    <h4>Le problème</h4>
 
-        <p>Lorsque la nourriture gaspillée se décompose dans les sites d’enfouissement, elle émet du méthane, un gaz 25 fois plus puissant que le gaz carbonique en potentiel de réchauffement global.</p>
+    <p>Notre alimentation est somme toute très énergivore. Avant d’arriver à notre assiette, nos aliments ont mobilisé
+      énormément de ressources!</p>
 
-        <h4>Notre Mission</h4>
+    <ul>
+      <li>
+        Le pétrole pour les engrais utilisés en agriculture;
+      </li>
+      <li>
+        Le diesel pour la machinerie agricole;
+      </li>
+      <li>
+        L’eau pour arroser les cultures;
+      </li>
+      <li>
+        Le mazout ou le gaz naturels pour chauffer les bâtiments d’élevage et d’entreposage ainsi que les serres;
+      </li>
+      <li>
+        Le combustible des bateaux, des camions et même des avions pour transporter les aliments
+      </li>
+      <li>
+        Le pétrole pour les plastiques des emballages.
+      </li>
+    </ul>
 
-        <ul>
-          <li>
-            Une communauté active pour la réduction du gaspillage alimentaire.
-          </li>
-          <li>
-            Une mobilisation des citoyens des quartiers de Montréal via diverses activités de sensibilisation.
-          </li>
-        </ul>
-      </div>
+    <p>Lorsque la nourriture gaspillée se décompose dans les sites d’enfouissement, elle émet du méthane, un gaz 25
+      fois plus puissant que le gaz carbonique en potentiel de réchauffement global.</p>
 
-      <div id="Stats" class="tabcontent">
-        <p>Depuis sa création en janvier 2019...</p>
-        <p><b style="color:rgba(0, 140, 140, 1)">Frigocommunautaire.com</b> a évité le gaspillage alimentaire de:</p>
-        <ul><li>1 430 plats<br />+150 plats en juillet 2020</li></ul>
-        <p><b style="color:rgba(0, 140, 140, 1)">On</b> a déposé:</p>
-        <ul><li>1 678 plats<br /><span style="color:#F59A23">BRAVO!</span> +205 plats en juillet 2020</li></ul>
-        <br />
-        <p><b style="color:rgba(0, 140, 140, 1)">On</b> a fournis à Ville en vert pour le compostage :</p>
-        <ul><li>248 plats<br />+15 plats en juillet 2020 <br />-2 plats comparé à juin 2020</li></ul>
-      </div>
+    <h4>Notre Mission</h4>
 
-      <div id="Reglement" class="tabcontent">
-        <h4>Fonctionnement</h4>
-        <br>
-        <h4>Éligibilité</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
-        <br>
-        <h4>Opération</h4>
-        <h4>Déposer un plat</h4>
-        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
-        <br>
-        <h4>Prendre en plat - Mon panier</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
-        <br>
-        <h4>Retour des contenants</h4>
-        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
-      </div>
-      
+    <ul>
+      <li>
+        Une communauté active pour la réduction du gaspillage alimentaire.
+      </li>
+      <li>
+        Une mobilisation des citoyens des quartiers de Montréal via diverses activités de sensibilisation.
+      </li>
+    </ul>
+  </div>
 
-      <div  id="Inscription" class="tabcontent">
-        <form id="InscriptionForm">
-          <label for="fname" class=parenthesis><b>Nom complet</b> (prénom +  nom de famile)</label><br />
-          <input type="text" class="inputBox" name="fname">
-          
-          <br />
+  <div id="Stats" class="tabcontent">
+    <p>Depuis sa création en janvier 2019...</p>
+    <p><b style="color:rgba(0, 140, 140, 1)">Frigocommunautaire.com</b> a évité le gaspillage alimentaire de:</p>
+    <ul>
+      <li>1 430 plats<br />+150 plats en juillet 2020</li>
+    </ul>
+    <p><b style="color:rgba(0, 140, 140, 1)">On</b> a déposé:</p>
+    <ul>
+      <li>1 678 plats<br /><span style="color:#F59A23">BRAVO!</span> +205 plats en juillet 2020</li>
+    </ul>
+    <br />
+    <p><b style="color:rgba(0, 140, 140, 1)">On</b> a fournis à Ville en vert pour le compostage :</p>
+    <ul>
+      <li>248 plats<br />+15 plats en juillet 2020 <br />-2 plats comparé à juin 2020</li>
+    </ul>
+  </div>
 
-          <label for="email" class=parenthesis><b>E-mail</b> (sera votre nom utilisateur)</label><br />
-          <input type="text" class="inputBox" name="email">
-          
-          <br />
+  <div id="Reglement" class="tabcontent">
+    <h4>Fonctionnement</h4>
+    <br>
+    <h4>Éligibilité</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor
+      sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
+    <br>
+    <h4>Opération</h4>
+    <h4>Déposer un plat</h4>
+    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla
+      luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
+    <br>
+    <h4>Prendre en plat - Mon panier</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor
+      sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
+    <br>
+    <h4>Retour des contenants</h4>
+    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla
+      luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
+      et viverra justo commodo. Proin sodales pulvinar tempor.</p>
+  </div>
 
-          <label for="pword" class=parenthesis><b>Mot de passe</b> (mélange de lettres et chiffres)</label><br />
-          <input type="password" class="inputBox" id=password name="pword">
-          
-          <br />
 
-          <label for="pwordc" class=parenthesis><b>Mot de passe</b> (confirmation)</label><br />
-          <input type="password" class="inputBox" id=confirmPassword name="pwordc">
+  <div id="Inscription" class="tabcontent">
+    <form id="InscriptionForm">
+      <label for="fname" class=parenthesis><b>Nom complet</b> (prénom + nom de famile)</label><br />
+      <input type="text" class="inputBox" id= name name="fname">
 
-          
-          <br />
+      <br />
 
-          <input type="checkbox" id=checkbox ><label style="color:#8C8C8C;">J'ai lu et j'accepte le règlement</label><br/>
-          <hr id="red">
-          <button id=confirmationButton type="button"  onclick=checkIfAcceptable()>Je confirme mon inscription</button>
+      <label for="email" class=parenthesis><b>E-mail</b> (sera votre nom utilisateur)</label><br />
+      <input type="text" class="inputBox" id=email name="email">
 
-        </form>
-      </div>
+      <br />
+
+      <label for="pword" class=parenthesis><b>Mot de passe</b> (mélange de lettres et chiffres)</label><br />
+      <input type="password" class="inputBox" id=password name="pword">
+
+      <br />
+
+      <label for="pwordc" class=parenthesis><b>Mot de passe</b> (confirmation)</label><br />
+      <input type="password" class="inputBox" id=confirmPassword name="pwordc">
+
+
+      <br />
+
+      <input type="checkbox" id=checkbox><label style="color:#8C8C8C;">J'ai lu et j'accepte le règlement</label><br />
+      <hr id="red">
+      <button id=confirmationButton type="button" onclick="connectIfAcceptable(event)" >Je confirme mon inscription</button>
+
+    </form>
+  </div>
+  <div class="modal">
+    <div class=popup>
+      <div id=bienvenue></br><b>Bienvenue</b></div>
+
+      <hr style="color:#8C8C8C; opacity: 0.5;">
+      <p id=pPopup>Félicitations et bienvenues à Frigocommunautaires.com.</p>
+      <p id=pPopup2>Accédez à l'espace membre et dès aujourd'hui commencez à
+        partager vos excédents de nourriture.</p>
+      <hr style="color:black;">
+      </br>
+      <button type="submit" class=connectButton onclick="closePopup()">Ok</button>
     </div>
-    <div class="modal">
-      <div class=popup>
-        <div id=bienvenue></br><b>Bienvenue</b></div>
-        
-        <hr style="text-align:left;margin-left:-9px;color:#8C8C8C; opacity: 0.5;">
-        <p id=pPopup>Félicitations et bienvenues à Frigocommunautaires.com.</p>
-        <p id= pPopup2>Accédez à l'espace membre et dès aujourd'hui commencez à 
-            partager vos excédents de nourriture.</p>
-        <hr style="text-align:left;margin-left:-9px;color:black;">
-        </br>
-        <button type="submit" id=connectButton onclick="closePopup()">Ok</button>
-      </div>
-    </div>
-    
+  </div>
 
-    <div class="clearfix"></div>
-    <script src="scripts.js"></script>
-    
-  </body>
+
+  <div class="clearfix"></div>
+  <script src="scripts.js"></script>
+
+</body>
 
 </html>
