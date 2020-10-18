@@ -357,179 +357,91 @@ input[type="checkbox" i] {
 
 
 @media only screen and (max-width: 1199px) and (orientation: landscape) {
+  body {
+    position: absolute;
+    cursor: url(https://2rhl12.axshare.com/resources/css/images/touch.svg) 32 32, auto;
+  }
+
   .div0{
-    color: #FFFFFF;
-    background-color: #008C8C;
+    left:0px;
+    top:0px;
     padding-left: 10px;
     position:fixed;
     width:100%;
     height:60px;
     text-align: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-family: 'Arial', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 29px;
-    color: #FFFFFF;
-    padding : 14px;
     z-index: 1;
   }
-  h3{
-      margin-top : 0px;
 
-  }
   .div1{
-    background-color: #008C8C;
     margin-top: 60px;
     display: block;
     width:100px;
     height:80%;
     position: fixed;
     float:left;
+    left:0px;
   }
-  .divbg{
-    background-color: #008C8C;
-    margin-top: 60px;
-    display: block;
-    width:100px;
-    height:100%;
-    position: fixed;
-    float:left;
-  }
-  .div3{
-    background-color: white;
-    padding-top: 10px;
-  }
-    
-  .tablinks{
-    height:25%;
-    width:100%;
-    border: none;
-    text-align: center;
-    outline: none;
-    background-color: inherit;
-    font-size: 16px;
-    color: #FFFFFF;
-    font-family: 'Arial', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-decoration: none;
-  }
+  
   #icon{
-  font-size: 35px;
   top: 0px;
-  height: 100%;
-  width:15%;
   margin-right: 50px;
   text-align: right;
-  right:-9px;
+  right:-10px;
   padding-right: 17px;
-  } 
-  body {
-    position: absolute;
-    
-
-  cursor: url(https://2rhl12.axshare.com/resources/css/images/touch.svg) 32 32, auto;
-
-  
-  }
-  body>nav>div>button {
-    
-    display: block;
-    height: 20%;
-    width :10%;
-    cursor: url(https://2rhl12.axshare.com/resources/css/images/touch.svg) 32 32, auto;
-  }
-  body > nav > div {
-  margin-top: 50px;
-  z-index: 1;
-  left: 0;
-  background-color:#008C8C;
-  overflow-x: hidden;
-  padding-top: 20px;
-  
-  }
-  body > nav > div > button{
-    text-align: center;
-    width: 100%;
-    border: none;
-    outline: none;
-    background-color: inherit;
-    font-size: 16px;
-    color: #FFFFFF;
-    font-family: 'Arial', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-decoration: none;
-  }
-  .tabcontent{
-    padding-left: 100px;
-    padding-top: 10%;
-  }
-
- .tablinks.active  {
-    border-left: 3px solid #FFFFFF;
-    border-bottom: 0px;
-  }
- 
-  .tab{
-
-    position: absolute;
-    z-index: 1;
-    background: #008C8C;
-    overflow-x: hidden;
-    
-  }
-  
-  body > nav > h3{
-    text-align: left;
-  }
-  body > nav{
-    position: fixed;
-  }
-  .Titre{
-    width:100%;
-  }
-  #confirmationButton{
-    width:auto;
-
-    margin-top: 1%;
-  }
-  
-  #Inscription {
-    width:80%;
-    padding-top:10%;
-    
-  }
-  #Inscription br {
-    display: none;
-    }
-  #Stats {
-    padding-top: 15%;
-  }
+  }  
 
   .formPopup{
     margin-top: -7%;
     margin-left: 30%;
   }
 
-  #bienvenue{
-    height: 50px;
+  .tablinks{
+    height:25%;
+    width:100%;
   }
+
+ .tablinks.active  {
+    border-left: 3px solid #FFFFFF;
+    border-bottom: 0px;
+  }
+
+  .tabcontent{
+    padding-left: 100px;
+    padding-top: 10%;
+  }
+  
+  #Stats {
+    padding-top: 15%;
+  }
+
+  #Inscription {
+    width:80%;
+    padding-top: 12%;
+  }
+
+  #confirmationButton{
+    width:auto;
+    margin-top: 1%;
+  }
+
   .popup{
     margin-left: 20%;
     margin-top: -10%;
     height: 280px;
   }
+  
   .popup > br {
     display: none;
   }
+
   .popup > hr {
     width: 103.3%;
-  }
+  } 
 
-  
+  #bienvenue{
+    height: 50px;
+  }
 
 }
 
@@ -537,41 +449,7 @@ input[type="checkbox" i] {
   html{
     cursor: url(https://2rhl12.axshare.com/resources/css/images/touch.svg) 32 32, auto;
   }
-  body {
-    cursor: url(https://2rhl12.axshare.com/resources/css/images/touch.svg) 32 32, auto;
-  } 
 
-  body > nav > div > button{
-    width: 24%;
-    border: none;
-    outline: none;
-    background-color: inherit;
-    font-size: 16px;
-    color: #FFFFFF;
-    font-family: 'Arial', sans-serif;
-    font-weight: 300px;
-    font-style: normal;
-    text-decoration: none;
-    cursor: url(https://2rhl12.axshare.com/resources/css/images/touch.svg) 32 32, auto;
-  }
-  .tablinks.active  {
-  border-bottom: 3px solid #FFFFFF;
-}
-.tablinks{
-  width: 23%;
-  padding-right: 0px;
-  margin-right: 0px;
-  font-size:11px;
-}
-
-.div1{
-  text-align: left;
-  width: 100%;
-}
-
-#icon{
-  text-align: right;
-  }
   .div0 p{
   width: 100%;
   left:0px;
@@ -579,23 +457,40 @@ input[type="checkbox" i] {
   margin: 0px;
   text-align: left;
   }
-  
-  #confirmationButton{
-    width:55%;
-    padding-top:12px;
-    padding-bottom:12px;
-  }
-  
-  #Inscription {
-    width:90%;
-    
-  }
+
   .formPopup{
     margin-top: -7%;
     margin-left: 4%;
     width: 330px;
   }
-  .popup{
+
+  .div1{
+  text-align: left;
+  width: 100%;
+  }
+
+  .tablinks{
+  width: 23%;
+  }
+
+  .tablinks.active  {
+  border-bottom: 3px solid #FFFFFF;
+  }
+
+  #icon{
+  text-align: right;
+  }
+  
+  #Inscription {
+    width:90%;
+  }
+
+  #confirmationButton {
+    width:55%;
+    padding-top:12px;
+    padding-bottom:12px;
+  }
+  .popup {
     margin-left: 8%;
     margin-top: -10%;
     width: 300px;
@@ -605,9 +500,4 @@ input[type="checkbox" i] {
   .popup > hr {
     width:105.5%;
   }
-/* body p{
-  left:0px;
-  padding-left: 0px;
-  margin: 0px;
-} */
 }  
