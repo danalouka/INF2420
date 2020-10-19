@@ -9,14 +9,16 @@
 
 .body{
 /* DEPLUS */
-  margin: 0px;
+  margin-top: 0px;
   overflow-x: hidden;
   font-family: 'Arial', sans-serif;
   font-weight: 400;
   font-style: normal;
   background-color: rgba(255, 255, 255, 1);
 }
-
+body{
+  margin: 0px;
+}
 body p{
   font-size: 15px;
   margin: 10px;
@@ -66,7 +68,10 @@ h4{
   color:#FFFFFF;
   font-size: 29px;
 }
-
+#boutonMembre{
+  color: white;
+  font-size: 15px;
+}
 #icon {
   font-size: 35px;
   color: #FFFFFF;
@@ -193,7 +198,7 @@ form > label{
   border: none;
   outline: none;
   background-color: inherit;
-  font-size: 16px;
+  font-size: 13px;
   color: #FFFFFF;
   font-family: 'Arial', sans-serif;
   font-weight: 400;
@@ -371,16 +376,19 @@ input[type="checkbox" i] {
     height:60px;
     text-align: left;
     z-index: 1;
+    padding-bottom: 0px;
   }
 
   .div1{
-    margin-top: 60px;
+    margin-top: 0px;
     display: block;
     width:100px;
     height:80%;
     position: fixed;
     float:left;
     left:0px;
+    padding-top: 60px;
+    padding-bottom: 50px;
   }
   
   #icon{
@@ -450,12 +458,14 @@ input[type="checkbox" i] {
     cursor: url(https://2rhl12.axshare.com/resources/css/images/touch.svg) 32 32, auto;
   }
 
+
   .div0 p{
   width: 100%;
   left:0px;
   padding-left: 0px;
   margin: 0px;
   text-align: left;
+  font-size: 22px;
   }
 
   .formPopup{
@@ -476,7 +486,10 @@ input[type="checkbox" i] {
   .tablinks.active  {
   border-bottom: 3px solid #FFFFFF;
   }
-
+  #boutonMembre{
+    color: white;
+    font-size: 13px;
+  }
   #icon{
   text-align: right;
   }
